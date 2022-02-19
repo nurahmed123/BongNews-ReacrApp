@@ -34,6 +34,8 @@ export default class News extends Component {
 
         document.title = `${this.props.category === "general" ? "Home" : this.capitalizeFirstLetter(this.props.category)} - BongNews`;
     };
+    
+//     comments are here for practice
 
     // async updateNews() {
     //     let url = `https://newsapi.org/v2/top-headlines?${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pagesize=${this.props.pageSize}`;
