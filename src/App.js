@@ -7,8 +7,7 @@ import NavBar from './components/NavBar';
 import News from './components/News';
 
 export default class App extends Component {
-  // APIKey = "a6e5323a24724dc5b9b7d6d7d06540f7";
-  // APIKey = "631da6f41c5e4408ad98e17329ccb61a";
+
   APIKey = process.env.REACT_APP_BONG_NEWS;
   countryKey = "bg";
   pageItem = 8;
